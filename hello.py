@@ -1,16 +1,21 @@
-def add_prices(basket):
-	# Initialize the variable that will be used for the calculation
-	total = 0
-	# Iterate through the dictionary items
-	for prices in basket.values():
-		# Add each price to the total calculation
-		# Hint: how do you access the values of
-		# dictionary items?
-		total += prices
-	# Limit the return value to 2 decimal places
-	return round(total, 2)  
+f1 = open('pro.txt', 'r')
+body = f1.readlines()
+f1.close()
 
-groceries = {"bananas": 1.56, "apples": 2.50, "oranges": 0.99, "bread": 4.59, 
-	"coffee": 6.99, "milk": 3.39, "eggs": 2.98, "cheese": 5.44}
+print(body)
+f3 = open('pro.txt', 'w')
+for line in body:
+    if "java" in line:
+        body = line.replace("java", "python")
+        f3.write(body)
+        print(body)
 
-print(add_prices(groceries)) # Should print 28.44
+    else:
+        body = line
+        f3.write(body)
+        print(body)
+f3.close()
+# body = body.replac`z`
+# f1 = open('pro.txt', 'w')
+# f1.write(body)
+# f1.close()
