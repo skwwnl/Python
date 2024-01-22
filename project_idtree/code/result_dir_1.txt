@@ -1,0 +1,23 @@
+D:\ 51745.502MB
+- $RECYCLE.BIN 2389.759MB
+|  - S-1-12-1-1338761956-1193400643-2222688173-858104125 2389.759MB
+- %G_RT&S 1.988MB
+- AILAB_dev 26813.540MB
+|  - cpp 164.412MB
+|  - django 0.575MB
+|  - docker 561.151MB
+|  - flutter 2251.724MB
+|  - InventisProject 20.502MB
+|  - python 7946.895MB
+|  - Triton 712.920MB
+|  - VirtualBox 4466.420MB
+|  - wsl 10688.942MB
+- AILAB_env 15543.021MB
+|  - dev 11815.932MB
+|  - docs 5.566MB
+|  - inventis 1859.920MB
+|  - tools 1861.602MB
+- AILAB_info 38.406MB
+|  - info_backup 0.190MB
+|  - 환경구성 8.829MB
+- Backup 6958.789MB
