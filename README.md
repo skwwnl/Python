@@ -1,6 +1,10 @@
 # Python
 
-개인 Python 자료들을 업로드 합니다.
+개인 Python Code를 업로드 합니다.
+
+### 업로드 조건
+
+Project 단위가 아닌 단일 학습 Code를 위주
 
 <br>
 
