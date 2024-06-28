@@ -89,11 +89,11 @@ while not end_of_game:
     #TODO-2: - If guess is not a letter in the chosen_word,
     #Then reduce 'lives' by 1. 
     #If lives goes down to 0 then the game should stop and it should print "You lose."
-    if guess not in display:
+    if guess not in chosen_word:
         lives -= 1
-    if lives == 0:
-        print("You lose")
-        end_of_game == True
+        if lives == 0:
+            print("You lose")
+            end_of_game == True
         
     #Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
