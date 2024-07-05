@@ -49,7 +49,7 @@ def deal_card():
 # and returns the score.
 # Look up the sum() function to help you do this.
 
-
+sad
 def calculate_score(cards):
     """Take a list of cards and return the score calculated from the cards"""
 
